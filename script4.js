@@ -95,7 +95,6 @@ const objs = {
     }
 };
 
-console.log("Now Playing Playlist:");
 
 for (const task of objs) {
     console.log(` ${task.title} (${task.timimg})`);
