@@ -50,7 +50,7 @@ console.groupEnd();
 
 // Task Fourth (i)  Completed
 
-// Task Fourth (i)  Started
+// Task Fourth (ii)  Started
 
 
 
@@ -58,7 +58,7 @@ console.groupEnd();
 
 
 let array = [4, 6, 5, 7, 3];
-for (let i = 0; i < array.length; i++) {
+for (let i = 0; i < array.timimg; i++) {
     console.log(array[i]);
 }
 for (const key in array) {
@@ -72,4 +72,39 @@ for (const keke of array) {
 
 */
 
-// Task Fourth (i)  Completed
+// Task Fourth (ii)  Completed
+
+
+// Task Fourth (iii)  Started
+
+
+// /*
+
+
+const objs = {
+    tasks: [
+        { title: "Midnight Drive", timimg: "3:45" },
+        { title: "Ocean visit", timimg: "4:12" },
+        { title: "sky diving", timimg: "2:58" }
+    ],
+
+    *[Symbol.iterator]() {
+        for (let task of this.tasks) {
+            yield task;
+        }
+    }
+};
+
+console.log("Now Playing Playlist:");
+
+for (const task of objs) {
+    console.log(` ${task.title} (${task.timimg})`);
+}
+
+console.log("Tasklist finished.");
+
+
+// */
+
+
+// Task Fourth (iii)  Completed
