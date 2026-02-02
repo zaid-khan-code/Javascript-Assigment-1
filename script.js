@@ -305,3 +305,37 @@ console.log("Tasklist finished.");
 
 
 // Task Fourth (iii)  Completed
+
+// Task Fourth (iv)  Completed
+
+
+/*
+
+const data = [
+    { type: 'string', name: 'greating', value: "Hello world" },
+    { type: 'number', name: 'age', value: 28 },
+    { type: 'boolean', name: 'isActive', value: true },
+    { type: 'array', name: 'scores', value: [100, 90, 85] },
+    { type: 'object', name: 'person', value: { name: 'Alice', job: 'Engineer' } },
+    { type: 'function', name: 'sum', value: (a, b) => a + b },
+    { type: 'undefined', name: 'notDefined', value: undefined }
+];
+
+
+let analysisResult = `\n=== Variable Declaration Analysis ===\n`;
+
+for (const variable of data) {
+    analysisResult += `
+Name: ${variable.name}
+Type: ${typeof variable.value}
+Value: ${JSON.stringify(variable.value)}
+
+-------------------------------------`;
+}
+
+analysisResult += `\n=== End of Analysis ===`;
+
+console.log(analysisResult);
+
+ */
+// Task Fourth (iv)  Completed
