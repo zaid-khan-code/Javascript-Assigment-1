@@ -309,7 +309,7 @@ console.log("Tasklist finished.");
 // Task Fourth (iv)  Completed
 
 
-/*
+// /*
 
 const data = [
     { type: 'string', name: 'greating', value: "Hello world" },
@@ -318,7 +318,9 @@ const data = [
     { type: 'array', name: 'scores', value: [100, 90, 85] },
     { type: 'object', name: 'person', value: { name: 'Alice', job: 'Engineer' } },
     { type: 'function', name: 'sum', value: (a, b) => a + b },
-    { type: 'undefined', name: 'notDefined', value: undefined }
+    { type: 'undefined', name: 'notDefined', value: undefined },
+    { type: 'object', name: 'Null', value: null}
+
 ];
 
 
@@ -337,5 +339,18 @@ analysisResult += `\n=== End of Analysis ===`;
 
 console.log(analysisResult);
 
- */
+//  */
+
+console.log(`
+=== Reflection Logs === 
+
+
+1.Well the first one we even experimented in class is showing it now to the object type is object but array type is also object.
+2.Well at first i don't know why the function show the undefined at but i see the arguments is not even passing so two undefined paramenters are multipling thats why.
+3. We both know that the Null typeof is Obejct so reviewing it bring back memorys
+
+
+=== End of Reflection ===
+`);
+
 // Task Fourth (iv)  Completed
